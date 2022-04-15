@@ -1,0 +1,134 @@
+/* Header Tile */
+header p {
+    padding: auto;
+    background-color: ghostwhite;
+    font-size: 15px;
+    text-align: center;  
+      width: 100%;
+      height: 25px;
+      margin-top: auto;
+      font-family: 'Courier New', Courier, monospace ;
+}
+
+/* Logo as img */
+.logo {
+
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* Navbar with underline Hover */
+li{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    text-align: center; 
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+li a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+
+  }
+ li a:hover::after {
+    width: 30px;
+    height: 1px;
+    background-color: rgb(64, 64, 64);
+  }
+
+/* Frontpage Image with Button */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(239, 239, 239);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  /* Ziel paragraph  */
+
+
+  .ziel  {
+    padding: auto;
+    font-size: 30px;
+    text-align: center;  
+      height: 25px;
+      margin-top: auto;
+      font-family: 'Courier New', Courier, monospace ;
+
+}
+.zieltext {
+    padding: auto;
+    font-size: 15px;
+    text-align: center;  
+      height: 10px;
+      margin-top: auto;
+      font-family: 'Courier New', Courier, monospace ;
+}
+
+.zbtn {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 350px;
+}
+
+ .zbtn:after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+
+  }
+ .zbtn:hover::after {
+    width: 120px;
+    height: 1px;
+    background-color: rgb(64, 64, 64);
+  }
+
